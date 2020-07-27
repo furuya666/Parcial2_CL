@@ -1,0 +1,27 @@
+//////////creacion de la base de datos/////
+Crear una base de datos con el nombre inf-328 en postgres
+
+
+
+
+/////////////////crecion de la tabla persona////////////////
+create table persona(
+ci varchar(15),
+primary key(ci),
+nombre varchar(50),
+apellido_paterno(30),
+apellido_materno(30)
+)
+
+
+
+
+/////insertando persona//////
+insert into persona(ci,nombre,apellido_paterno,apellido_materno)
+values('11100604','gary','furuya','velarde')
+
+/////consulta tabla////
+select * from persona
+
+
+
